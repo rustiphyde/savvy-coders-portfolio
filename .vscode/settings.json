@@ -22,5 +22,6 @@
       "activityBar.background": "#0A3331",
       "titleBar.activeBackground": "#0E4844",
       "titleBar.activeForeground": "#F1FCFC"
-    }
+    },
+    "vscode-w3cvalidation.javaHome": "C:\\Program Files\\Java\\jre1.8.0_162"
   }
