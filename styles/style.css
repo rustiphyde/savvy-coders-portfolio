@@ -94,12 +94,7 @@ header {
   color: rgb(19, 11, 2);
 }
 
-footer {
-  font-family: "Bitter", serif;
-  background-color: #311004;
-  color: orange;
-  text-align: center;
-}
+
 
 .october {
   background-color: black;
@@ -129,5 +124,12 @@ h2 {
   font-size: 38px;
   color: darkolivegreen;
   background-color: black;
+  text-align: center;
+}
+
+footer {
+  font-family: "Bitter", serif;
+  background-color: #311004;
+  color: orange;
   text-align: center;
 }
