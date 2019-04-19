@@ -5,89 +5,31 @@
       href="https://fonts.googleapis.com/css?family=Bitter"
       rel="stylesheet"
     />
-    <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rusty's Portfolio</title>
 
-    <style>
-
-      nav {
-        background-color: orangered;
-      }
-      body {
-        background-color: #1b0801;
-      }
-
-      header {
-        background-color: #b7410e;
-        font-size: 32px;
-        text-shadow: 1px 2px orange, 2px 1px 2px red;
-        text-align: center;
-        color: #69230b;
-      }
-      h1 {
-        font-family: "Rustiphyde", sans-serif;
-      }
-
-      footer {
-        font-family: "Bitter", serif;
-        background-color: #311004;
-        color: orange;
-        text-align: center;
-      }
-
-      .october {
-        background-color: black;
-        color: #ffa500;
-        font-size: 26px;
-        text-align: center;
-      }
-      main {
-        background-color: darkolivegreen;
-        text-align: center;
-      }
-      p {
-        font-family: "October Crow", "Trebuchet MS", sans-serif;
-        text-align: center;
-      }
-      h2 {
-        text-align: center;
-        font-size: 32px;
-      }
-      .attention {
-        color: #b7410e;
-        background-color: #461604;
-        font-size: 22px;
-        text-align: center;
-      }
-      .giant-text {
-        font-size: 32px;
-        color: darkolivegreen;
-        background-color: black;
-        text-align: center;
-      }
-    </style>
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="about.html">About Me</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li>
-          Portfolio
-          <ul>
-            <li><a href="class.html">Class Showcase</a></li>
-            <li><a href="web-store.html">Web Store Hack-a-Thon</a></li>
-            <li><a href="demo.html">Demo Day Project</a></li>
-          </ul>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn"> Portfolio</a>
+          <div class="dropdown-content">
+            <a href="class.html">Class Showcase</a>
+            <a href="web-store.html">Web Store Hack-a-Thon</a>
+            <a href="demo.html">Demo Day Project</a>
+          </div>
         </li>
       </ul>
     </nav>
 
     <header>
-      <h1>Rusty's<br>Portfolio</h1>
+      <h1>Rusty's<br />Portfolio</h1>
     </header>
     <main>
       <section class="october">
