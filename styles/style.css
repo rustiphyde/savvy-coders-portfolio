@@ -83,6 +83,7 @@ header {
   text-align: center;
   color: #722104;
   line-height: 10px;
+  overflow-wrap: normal;
 }
 h1 {
   font-family: "Rustiphyde", sans-serif;
