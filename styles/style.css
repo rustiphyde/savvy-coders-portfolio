@@ -78,14 +78,22 @@ body {
 
 header {
   background-color: #b7410e;
-  font-size: 32px;
-  text-shadow: 1px 2px orange, 2px 1px 2px red;
+  font-size: 45px;
+  text-shadow: 1px 2px orange, 6px 4px 4px black;
   text-align: center;
-  color: #553023;
-  line-height: 108px;
+  color: #722104;
+  line-height: 10px;
 }
 h1 {
   font-family: "Rustiphyde", sans-serif;
+}
+
+#port {
+  font-family: "Bitter", serif;
+  font-size: 50px;
+  line-height: 45px;
+  text-shadow: 1px 2px orange, 2px 1px 2px red;
+  color: rgb(19, 11, 2);
 }
 
 footer {
