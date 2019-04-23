@@ -115,7 +115,7 @@ main {
 
 p {
   font-family: "October Crow", "Trebuchet MS", sans-serif;
-  background: #b7410e url("/images/rust-background.png") 100% 1px;
+  background-image: url("/images/rust-background.png");
   text-align: center;
   margin: 0 auto;
   padding: 16px;
