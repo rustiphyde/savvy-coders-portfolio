@@ -72,12 +72,14 @@ nav ul li.dropdown {
 
 body {
   background-color: #1b0801;
+  font-size: 16px;
 }
 
 header {
+  background-image: url("/images/rust-background.png");
   background-color: #b7410e;
-  font-size: 45px;
-  text-shadow: 1px 2px orange, 6px 4px 4px black;
+  font-size: 2.5em;
+  text-shadow: 1px 2px orange, 8px 6px 6px black;
   text-align: center;
   color: #722104;
   line-height: 10px;
@@ -88,13 +90,13 @@ header {
   text-align: center;
   color: #722104;
   line-height: 10px;
-  font-size: 78px;
+  font-size: 3.5em;
   font-family: "Bitter", serif;
 }
 
 #port {
   font-family: "Bitter", serif;
-  font-size: 50px;
+  font-size: 2.5em;
   line-height: 45px;
   text-shadow: 1px 2px orange, 2px 1px 2px red;
   color: rgb(19, 11, 2);
@@ -103,7 +105,7 @@ header {
 .october {
   background-color: black;
   color: #ffa500;
-  font-size: 26px;
+  font-size: 2em;
   text-align: center;
 }
 main {
@@ -113,6 +115,7 @@ main {
 
 p {
   font-family: "October Crow", "Trebuchet MS", sans-serif;
+  background: #b7410e url("/images/rust-background.png") 100% 1px;
   text-align: center;
   margin: 0 auto;
   padding: 16px;
@@ -122,17 +125,17 @@ p {
 }
 h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 1.5em;
 }
 .attention {
-  color: #b7410e;
+  color: orange;
   background-color: #461604;
-  font-size: 22px;
+  font-size: 1em;
   text-align: center;
 }
 .giant-text {
-  font-size: 38px;
-  color: darkolivegreen;
+  font-size: 1.5em;
+  color: orange;
   background-color: black;
   text-align: center;
 }
