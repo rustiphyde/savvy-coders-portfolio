@@ -11,7 +11,34 @@
 .container {
   margin: 0 auto;
   max-width: 960px;
-  width: 90vw;
+  width: 80vw;
+}
+
+#messinq {
+  font-family: "Bitter", serif;
+  color: orange;
+  text-align: left;
+}
+
+form > div + div {
+  margin-top: 16px;
+}
+
+.flex {
+  display: flex;
+
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+span + span {
+  margin-left: 12px;
+}
+
+form span + div {
+  margin-top: 16px;
 }
 
 nav ul {
@@ -84,6 +111,15 @@ header {
   color: #722104;
   line-height: 10px;
 }
+#c {
+  text-shadow: 1px 2px orange, 6px 4px 4px black;
+  text-align: center;
+  color: #722104;
+  line-height: 10px;
+  font-size: 2.5em;
+  font-family: "Bitter", serif;
+}
+
 
 #h {
   text-shadow: 1px 2px orange, 6px 4px 4px black;
@@ -108,6 +144,22 @@ header {
   font-size: 2em;
   text-align: center;
 }
+.g {
+  font-family: "Bitter", serif;
+  background-image: url("/images/rust-background.png");
+  text-align: center;
+  margin: 0 auto;
+  color: orange;
+  padding: 16px;
+  max-width: 700px;
+  width: 80%;
+  border: solid 3px orangered;
+}
+
+label {
+  color: white;
+    font-family: "Bitter", serif;
+}
 main {
   background-color: darkolivegreen;
   text-align: center;
@@ -118,6 +170,7 @@ p {
   background-image: url("/images/rust-background.png");
   text-align: center;
   margin: 0 auto;
+  color: orange;
   padding: 16px;
   max-width: 700px;
   width: 80%;
