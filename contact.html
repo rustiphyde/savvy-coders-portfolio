@@ -13,6 +13,7 @@
     <p class="g">Hello. I welcome all of your feedback, inquiries, suggestions, opinions and complaints.  </p>
     <p class="g">Please fill out the form below and I will get back to you at my earliest convenience. Thank You!</p>
     <form action="https://formspree.io/rustiphyde@gmail.com" method="POST" >
+
       <span>
       <label for="name">Your Name</label>
       <input
@@ -51,33 +52,40 @@
 </div>
 
 
-<div>      <input type="submit" value="Send Message" />
-  <input type="reset" value="Clear Form" />
+<div>      <input
+  type="submit"
+  value="Send Message" />
+  <input
+  type="reset"
+  value="Clear Form" />
 </div>
 
 
-<div>
-  <p id="messinq">What's this message about?</p>
+<div class="justif">
+  <label id="messinq">What is this message about?</label>
+
   <div><input
     type="radio"
     name="subject"
     value="professional"
     checked />
-
     <label>I'd like to hire you!</label>
   </div>
+
   <div><input
     type="radio"
     name="subject"
     value="personal" />
     <label>Personal message</label>
   </div>
-  <input
+
+ <div> <input
   type="radio"
   name="subject"
   value="other" />
     <label>Don't know/something else</label >
 </label>
+</div>
 </div>
 
 <div><input

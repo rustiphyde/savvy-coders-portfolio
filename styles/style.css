@@ -18,6 +18,21 @@
   font-family: "Bitter", serif;
   color: orange;
   text-align: left;
+  margin: 0;
+  background-image: none;
+  border: none;
+  font-size: 1.5em;
+}
+
+.justif {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+nav {
+  top: 0;
+  position: sticky;
 }
 
 form > div + div {
@@ -26,7 +41,6 @@ form > div + div {
 
 .flex {
   display: flex;
-
 }
 
 .flex--column {
@@ -41,8 +55,9 @@ form span + div {
   margin-top: 16px;
 }
 
-nav ul {
-  list-style-type: none;
+nav > ul {
+  justify-content: space-around;
+  list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -50,7 +65,8 @@ nav ul {
 }
 
 nav ul li {
-  float: left;
+  display: flex;
+  text-transform: uppercase;
 }
 
 nav ul li a,
@@ -105,7 +121,7 @@ body {
 header {
   background-image: url("/images/rust-background.png");
   background-color: #b7410e;
-  font-size: 2.5em;
+  font-size: 2em;
   text-shadow: 1px 2px orange, 8px 6px 6px black;
   text-align: center;
   color: #722104;
@@ -120,19 +136,18 @@ header {
   font-family: "Bitter", serif;
 }
 
-
 #h {
   text-shadow: 1px 2px orange, 6px 4px 4px black;
   text-align: center;
   color: #722104;
   line-height: 10px;
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-family: "Bitter", serif;
 }
 
 #port {
   font-family: "Bitter", serif;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 45px;
   text-shadow: 1px 2px orange, 2px 1px 2px red;
   color: rgb(19, 11, 2);
@@ -143,6 +158,9 @@ header {
   color: #ffa500;
   font-size: 2em;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 .g {
   font-family: "Bitter", serif;
@@ -158,7 +176,7 @@ header {
 
 label {
   color: white;
-    font-family: "Bitter", serif;
+  font-family: "Bitter", serif;
 }
 main {
   background-color: darkolivegreen;
@@ -167,9 +185,9 @@ main {
 
 p {
   font-family: "October Crow", "Trebuchet MS", sans-serif;
-  background-image: url("/images/rust-background.png");
+  background-color: #582109;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto;
   color: orange;
   padding: 16px;
   max-width: 700px;
@@ -179,18 +197,22 @@ p {
 h2 {
   text-align: center;
   font-size: 1.5em;
+  margin-top: 22px;
+  padding-top: 20px;
 }
 .attention {
   color: orange;
   background-color: #461604;
   font-size: 1em;
   text-align: center;
+  padding-bottom: 16px;
 }
 .giant-text {
   font-size: 1.5em;
   color: orange;
   background-color: black;
   text-align: center;
+  padding-bottom: 16px;
 }
 
 footer {
