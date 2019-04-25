@@ -11,6 +11,7 @@
 .container {
   margin: 0 auto;
   max-width: 960px;
+  background-image: url("/images/rust-background.png");
 }
 
 #messinq {
@@ -27,6 +28,14 @@
   display: flex;
   justify-content: left;
   margin-top: 20px;
+}
+
+.fab {
+  font-size: 2em;
+  color: orange;
+  text-align: center;
+  margin: 9px;
+  float: right;
 }
 
 nav {
@@ -115,6 +124,7 @@ nav ul li.dropdown {
 body {
   background-color: #1b0801;
   font-size: 16px;
+  background: url("/images/rusted tile.png");
 }
 
 header {
@@ -135,32 +145,79 @@ header {
   font-family: "Bitter", serif;
 }
 
+
+
 #h {
   text-shadow: 1px 2px orange, 6px 4px 4px black;
   text-align: center;
   color: #722104;
+
   line-height: 10px;
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-family: "Bitter", serif;
 }
 
 #port {
   font-family: "Bitter", serif;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 45px;
   text-shadow: 1px 2px orange, 2px 1px 2px red;
   color: rgb(19, 11, 2);
+  padding-bottom: 16px;
 }
 
 .october {
   background-color: black;
   color: #ffa500;
-  font-size: 2em;
-  text-align: center;
+  font-size: 1em;
   margin-top: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   padding-bottom: 16px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 120px 300px 1fr;
+  border: double 16px orangered;
+  background-image: url(/images/rust-texture-2.png);
+  border-radius: 12%;
+ }
+
+ .october h2 {
+  text-shadow: 1px 2px orange, 6px 4px 4px black;
+  text-align: center;
+  height:700px;
+  color: #722104;
+  font-size: 4em;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
+
+.october img {
+  grid-area: img;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  border-radius: 50%;
+  border: dashed 6px #b7410e;
+  margin-top: 16px;
+
+}
+
+.october p {
+  font-size: 1.75em;
+  font-family: "Bitter", serif;
+  background-color: #240e04;
+  text-align: center;
+  margin: 7px auto;
+  color: orange;
+  border: groove 6px orangered;
+  line-height: 40px;
+  width: 90%;
+  height: 250px;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  padding: 16px;
+
+}
+
 .g {
   font-family: "Bitter", serif;
   text-align: center;
@@ -182,21 +239,12 @@ main {
   text-align: center;
 }
 
-p {
-  font-family: "October Crow", "Trebuchet MS", sans-serif;
-  /* background-color: #582109; */
-  text-align: center;
-  margin: 20px auto;
-  color: orange;
-  padding: 16px;
-  max-width: 700px;
-  width: 80%;
-  border: solid 3px orangered;
-}
+
+
 h2 {
   text-align: center;
-  font-size: 1.5em;
-  margin-top: 22px;
+  font-size: 2em;
+  margin-top: 2px;
   padding-top: 20px;
 }
 .attention {
@@ -218,5 +266,7 @@ footer {
   font-family: "Bitter", serif;
   background-color: #311004;
   color: orange;
-  text-align: center;
+  text-align: left;
+  height: 30px;
+  margin-top: 16px;
 }
