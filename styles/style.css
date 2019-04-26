@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: 98vw;
+  max-width: 960px;
   background-image: url("/images/rust-background.png");
   width: 90vw;
   box-sizing: border-box;
@@ -30,7 +30,12 @@
   float: right;
 }
 
-p i .fab {
+#deviant .fab {
+  font-size: 2em;
+  margin: 6px;
+  float: none;
+}
+#beats .fab {
   font-size: 2em;
   margin: 6px;
   float: none;
@@ -244,11 +249,13 @@ h2 {
   color: #ffa500;
   font-size: 16px;
   margin-top: 10px;
+  margin-bottom: 50px;
   background-image: url(/images/rust-texture-2.png);
   max-width: 960px;
   opacity: .75;
   z-index: -1;
   overflow: auto;
+  padding-bottom: 24px;
 }
 
 .sixteenth h2 {
@@ -264,7 +271,7 @@ h2 {
   font-size: 1.5em;
   font-family: "Bitter", serif;
   background-color: rgba(82, 32, 9, 0.75);
-  text-align: center;
+  text-align: left;
   margin: 0px auto;
   color: orange;
   line-height: 36px;
@@ -279,30 +286,46 @@ h2 {
   margin-top: 16px;
   align-items: center;
 }
-.sixteenth img:last {
-  border-radius: 16%;
-  border: dashed 6px #b7410e;
-  margin-top: 16px;
-  align-items: center;
-  margin-bottom: 16px;
-}
 
 .rustiphyde {
-  background-color: black;
   color: #ffa500;
-  font-size: 1em;
+  font-size: 16px;
   margin-top: 10px;
-  margin-bottom: 10px;
-  padding-bottom: 16px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 120px 300px 1fr;
-  border: double 16px orangered;
+  margin-bottom: 50px;
   background-image: url(/images/rust-texture-2.png);
-  border-radius: 12%;
   max-width: 960px;
+  opacity: .75;
+  z-index: -1;
+  overflow: auto;
+  padding-bottom: 24px;
+}
+.rustiphyde h2 {
+  text-shadow: 1px 2px black, 6px 4px 12px rgb(253, 73, 2);
+  text-align: center;
+  height: 50px;
+  color: orange;
+  font-size: 3.5em;
+  opacity: 1;
 }
 
+.rustiphyde p {
+  font-size: 1.5em;
+  font-family: "Bitter", serif;
+  background-color: rgba(82, 32, 9, 0.75);
+  text-align: left;
+  margin: 0px auto;
+  color: orange;
+  line-height: 36px;
+  width: 90%;
+  border: dotted 6px orangered;
+  box-shadow: 0px 0px 16px lime;
+  overflow: auto;
+}
+.rustiphyde iframe {
+  border: dashed 6px #b7410e;
+  margin: 0 auto;
+
+}
 footer {
   font-family: "Bitter", serif;
   background-color: #311004;
