@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 98vw;
   background-image: url("/images/rust-background.png");
   width: 90vw;
   box-sizing: border-box;
