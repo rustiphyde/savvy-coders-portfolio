@@ -2,7 +2,8 @@
   margin: 0 auto;
   max-width: 960px;
   background-image: url("/images/rust-background.png");
-  width: 80vw;
+  width: 90vw;
+  box-sizing: border-box;
 }
 
 #messinq {
@@ -32,6 +33,7 @@
 nav {
   top: 0;
   position: sticky;
+  z-index: 1;
 }
 
 form > div + div {
@@ -126,7 +128,6 @@ header {
   text-align: center;
   color: #722104;
   line-height: 10px;
-  max-width: 960px;
   width: 80vw;
 }
 #c {
@@ -144,7 +145,6 @@ header {
   text-shadow: 1px 2px orange, 6px 4px 4px black;
   text-align: center;
   color: #722104;
-
   line-height: 10px;
   font-size: 3.5em;
   font-family: "Bitter", serif;
@@ -154,64 +154,59 @@ header {
   font-family: "Bitter", serif;
   font-size: 1.5em;
   line-height: 45px;
-  text-shadow: 1px 2px orange, 2px 1px 2px red;
-  color: rgb(19, 11, 2);
+  text-shadow: 2px 1px 2px black;
+  color: #b7410e;
   padding-bottom: 16px;
 }
 
 .october {
-  background-color: black;
   color: #ffa500;
-  font-size: 1em;
+  font-size: 16px;
   margin-top: 10px;
-  margin-bottom: 10px;
-  padding-bottom: 16px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 120px 300px 1fr;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
   border: double 16px orangered;
   background-image: url(/images/rust-texture-2.png);
   border-radius: 12%;
   max-width: 960px;
-  width: 80vw;
+  opacity: .75;
+  z-index: -1;
+  overflow: auto;
+  height: 575px;
  }
 
  .october h2 {
-  text-shadow: 1px 2px orange, 6px 4px 4px black;
+  text-shadow: 1px 2px black, 6px 4px 12px rgb(253, 73, 2);
   text-align: center;
-  height:700px;
-  color: #722104;
-  font-size: 4em;
-  grid-column-start: 3;
-  grid-column-end: 5;
+  height: 50px;
+  color: orange;
+  font-size: 3.5em;
+  opacity: 1;
 }
-
 .october img {
-  grid-area: img;
-  grid-column-start: 3;
-  grid-column-end: 5;
   border-radius: 50%;
   border: dashed 6px #b7410e;
-  margin-top: 16px;
+  float: right;
+  opacity: 1;
 
 }
-
 .october p {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-family: "Bitter", serif;
-  background-color: #240e04;
+  background-color: rgba(82, 32, 9, 0.75);
   text-align: center;
-  margin: 7px auto;
+  margin: 4px auto;
   color: orange;
-  border: groove 6px orangered;
   line-height: 40px;
   width: 90%;
-  height: 250px;
-  grid-column-start: 1;
-  grid-column-end: 8;
+  height: 55%;
   padding: 16px;
-
+  border: dotted 6px orangered;
+  box-shadow: 0px 0px 16px lime;
 }
+/* .propic {
+  opacity: 1;
+} */
 
 .g {
   font-family: "Bitter", serif;
@@ -242,19 +237,70 @@ h2 {
   margin-top: 2px;
   padding-top: 20px;
 }
-.attention {
-  color: orange;
-  background-color: #461604;
+.sixteenth {
+  background-color: black;
+  color: #ffa500;
   font-size: 1em;
-  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-bottom: 16px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 120px 300px 1fr;
+  border: double 16px orangered;
+  background-image: url(/images/rust-texture-2.png);
+  border-radius: 12%;
+  max-width: 960px;
+  opacity: .75;
+}
+
+.sixteenth h2 {
+  text-shadow: 1px 2px orange, 6px 4px 4px black;
+  text-align: center;
+  height:500px;
+  color: #722104;
+  font-size: 3em;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  padding-bottom: 16px;
+  margin-bottom:16px;
+}
+.sixteenth p {
+  font-size: 1.75em;
+  font-family: "Bitter", serif;
+  background-color: #240e04;
+  text-align: center;
+  margin: 7px auto;
+  color: orange;
+  line-height: 40px;
+  width: 90%;
+  height: 250px;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  padding: 16px;
+}
+.sixteenth img {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  border-radius: 16%;
+  border: dashed 6px #b7410e;
+  margin-top: 16px;
+  float: left;
 }
 .giant-text {
-  font-size: 1.5em;
-  color: orange;
   background-color: black;
-  text-align: center;
+  color: #ffa500;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-bottom: 16px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 120px 300px 1fr;
+  border: double 16px orangered;
+  background-image: url(/images/rust-texture-2.png);
+  border-radius: 12%;
+  max-width: 960px;
 }
 
 footer {
