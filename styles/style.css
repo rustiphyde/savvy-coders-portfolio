@@ -265,10 +265,13 @@ footer.container {
 @media screen and (max-width: 430px) {
 
     body {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
     }
-    * {
-        width: 100vw;
+    nav {
+        position: relative;
+    }
     }
 }
