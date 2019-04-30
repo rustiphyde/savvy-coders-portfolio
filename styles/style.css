@@ -49,6 +49,7 @@ nav {
   top: 0;
   position: sticky;
   z-index: 1;
+  width: 100%;
 }
 
 form > div + div {
@@ -140,7 +141,7 @@ header {
   text-align: center;
   color: #b7410e;
   background-color: #1b0801;
-  line-height: 10px;
+
   font-size: 3em;
   font-family: "Bitter", serif;
   width: 100vw;
@@ -155,11 +156,12 @@ header {
   font-family: "Bitter", serif;
 }
 
-.october {
+main {
   color: #ffa500;
   margin-top: 10px;
   margin-bottom: 50px;
   border: dotted 3px orangered;
+  text-align: center;
   }
 
   h2 {
@@ -171,7 +173,6 @@ header {
 }
 
 img {
-  border: dashed 6px #b7410e;
   float: left;
   }
 
@@ -204,7 +205,7 @@ label {
 }
 
 main {
-  text-align: center;
+
 }
 
 h2 {
@@ -259,4 +260,15 @@ footer.container {
   footer {
     grid-area: footer;
   }
+}
+
+@media screen and (min-width: 430px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    * {
+        width: 100vw;
+    }
 }
