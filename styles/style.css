@@ -214,7 +214,7 @@ h2 {
   padding-top: 20px;
 }
 
-footer.container {
+footer {
   font-family: "Bitter", serif;
   background-color: #311004;
   color: orange;
@@ -261,7 +261,7 @@ footer.container {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 730px) {
 
     body {
         display: grid;
@@ -274,12 +274,15 @@ footer.container {
         font-size: 2em;
     }
     nav {
-        position: relative;
+        font-size: .75em;
 
     }
     .fab {
 font-size: 1em;
 
+    }
+    footer {
+        font-size: .75em;
     }
     }
 }
