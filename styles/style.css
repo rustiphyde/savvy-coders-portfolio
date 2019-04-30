@@ -159,7 +159,6 @@ header {
 main {
   color: #ffa500;
   margin-top: 10px;
-  margin-bottom: 50px;
   border: dotted 3px orangered;
   text-align: center;
   }
@@ -182,7 +181,6 @@ img {
   font-family: "Bitter", serif;
   background-color: rgba(82, 32, 9, 0.75);
   text-align: left;
-  padding: 6px;
   color: orange;
 }
 
@@ -271,8 +269,17 @@ footer.container {
         grid-template-rows: auto;
 
     }
+
+    header {
+        font-size: 2em;
+    }
     nav {
         position: relative;
+
+    }
+    .fab {
+font-size: 1em;
+
     }
     }
 }
