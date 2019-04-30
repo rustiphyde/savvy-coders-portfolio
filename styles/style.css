@@ -40,6 +40,7 @@ input {
   text-align: center;
   margin: 9px;
   float: right;
+  padding-bottom: 16px;
 }
 .fas {
   font-size: 2em;
@@ -175,7 +176,6 @@ main {
   text-align: center;
   height: 50px;
   font-size: 3.5em;
-  opacity: 1;
 }
 
 img {
@@ -191,19 +191,6 @@ img {
   color: #f4db9d;
 }
 
-.g {
-  font-family: "Bitter", serif;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 12px;
-  color: orange;
-  padding: 6px;
-  max-width: 750px;
-  width: 100%;
-  border: solid 3px orangered;
-  background-color: black;
-  font-size: 1em;
-}
 
 label {
   color: #f4db9d;
@@ -222,9 +209,10 @@ footer {
   background-color :#b7410e;
   color: #f4db9d;
   text-align: left;
-  height: 60px;
+  height: 80px;
   width: auto;
   margin: 0;
+  padding-bottom: 28px;
 }
 
 @media screen and (min-width: 1200px) {
