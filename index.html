@@ -167,5 +167,23 @@
       <br><br>
       &copy; 2019 Rusty Hoppins
     </footer>
+
+    <script>
+        //create 'prompt' to ask for name
+        let name = window.prompt("Hi, I'm a prompt window. What's your name?");
+        //this is a FUNCTION DECLARATION
+        function checkName() {
+        //Check if name is a blank string
+        if (name === '') {
+        name = window.prompt("Are you there? I'm wondering what your name is?");
+        }
+        // Use alert to say hello to the user, using the name they put in
+        else {
+        alert(`It's so great to meet you, ${name}!`);
+        }
+        //this is a FUNCTION EXPRESSION
+       // let checkName = function() {}
+        checkName();
+    </script>
   </body>
 </html>
