@@ -1,17 +1,12 @@
 .container {
-    margin: 0 auto;
-    max-width:80vw;
-    background-image: url("/images/rust-background.png");
-    width: 80vw;
-    box-sizing: border-box;
-
+  width: auto;
+  box-sizing: border-box;
 }
 
 textarea {
   background-color: #f4db9d;
   color: #b7410e;
   font-family: "Bitter", serif;
-  text-shadow: 1px 1px 0px black;
   width: 80vw;
 }
 input {
@@ -21,335 +16,247 @@ input {
 }
 
 .subornot input {
-  background-color: orangered;
+  background-color: #b7410e;
   color: black;
   font-family: "Bitter", serif;
 }
 
 #messinq {
-    font-family: "Bitter", serif;
-    color: orange;
-    text-align: left;
-    margin: 0;
-    background-image: none;
-    border: none;
-    font-size: 1.5em;
+  font-family: "Bitter", serif;
+  color: orange;
+  text-align: left;
+  margin: 0;
+  background-image: none;
+  border: none;
+  font-size: 1.5em;
 }
 
 .justif {
-    display: flex;
-    justify-content: left;
-    margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
 }
 
 .fab {
-    font-size: 2em;
-    color: orange;
-    text-align: center;
-    margin: 9px;
-    float: right;
-}
-
-#deviant .fab {
-    font-size: 2em;
-    margin: 6px;
-    float: none;
-}
-
-#beats .fab {
-    font-size: 2em;
-    margin: 6px;
-    float: none;
+  font-size: 2em;
+  color: orange;
+  text-align: center;
+  margin: 9px;
+  float: right;
 }
 
 nav {
-    top: 0;
-    position: sticky;
-    z-index: 1;
+  top: 0;
+  position: sticky;
+  z-index: 1;
 }
 
-form>div+div {
-    margin-top: 16px;
+form > div + div {
+  margin-top: 16px;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex--column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
-span+span {
-    margin-left: 12px;
+span + span {
+  margin-left: 12px;
 }
 
-form span+div {
-    margin-top: 16px;
+form span + div {
+  margin-top: 16px;
 }
 
-nav>ul {
-    justify-content: space-around;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6b5238;
+nav > ul {
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6b5238;
 }
 
 nav ul li {
-    display: flex;
-    text-transform: uppercase;
+  display: flex;
+  text-transform: uppercase;
 }
 
 nav ul li a,
 .dropbtn {
-    display: inline-block;
-    color: orange;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav ul li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #b7410e;
+  background-color: #b7410e;
 }
 
 nav ul li.dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: orangered;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: orangered;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
-    font-family: "Bitter", serif;
+  background-color: #f1f1f1;
+  font-family: "Bitter", serif;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 body {
-    background-color: #1b0801;
-    font-size: 16px;
-    background: url("/images/rusted tile.png");
+  background-color: #b7410e;
+  font-size: 18px;
+  background: url("/images/rusted tile.png");
 }
 
 header {
-    background-image: url("/images/rust-background.png");
-    background-color: #b7410e;
-    font-size: 2em;
-    text-shadow: 1px 2px orange, 8px 6px 6px black;
-    text-align: center;
-    color: #722104;
-    line-height: 10px;
-    width: 80vw;
+  text-shadow: 1px 2px orange, 6px 4px 4px black;
+  text-align: center;
+  color: #b7410e;
+  background-color: #1b0801;
+  line-height: 10px;
+  font-size: 3em;
+  font-family: "Bitter", serif;
+  width: 100vw;
 }
 
 #c {
-    text-shadow: 1px 2px orange, 6px 4px 4px black;
-    text-align: center;
-    color: #722104;
-    line-height: 10px;
-    font-size: 2.5em;
-    font-family: "Bitter", serif;
-}
-
-#h {
-    text-shadow: 1px 2px orange, 6px 4px 4px black;
-    text-align: center;
-    color: #36200a;
-    line-height: 10px;
-    font-size: 3.5em;
-    font-family: "Bitter", serif;
-}
-
-#port {
-    font-family: "Bitter", serif;
-    font-size: 1.5em;
-    line-height: 45px;
-    text-shadow: 2px 1px 2px black;
-    color: orange;
-    padding-bottom: 16px;
+  text-shadow: 1px 2px orange, 6px 4px 4px black;
+  text-align: center;
+  color: #722104;
+  line-height: 40px;
+  font-size: 2.5em;
+  font-family: "Bitter", serif;
 }
 
 .october {
-    color: #ffa500;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    border: dotted 3px orangered;
-    background-image: url(/images/rust-texture-2.png);
-    opacity: 0.75;
-    overflow: auto;
+  color: #ffa500;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: dotted 3px orangered;
+  }
+
+  h2 {
+
+  text-align: center;
+  height: 50px;
+  font-size: 3.5em;
+  opacity: 1;
 }
 
-.october h2 {
-    text-shadow: 1px 2px black, 6px 4px 12px rgb(253, 73, 2);
-    text-align: center;
-    height: 50px;
-    color: orange;
-    font-size: 3.5em;
-    opacity: 1;
-}
+img {
+  border: dashed 6px #b7410e;
+  float: left;
+  }
 
-.october img {
-    border: dashed 6px #b7410e;
-    float: left;
-    opacity: 1;
-    padding: 16px;
-    margin: 20px;
-    box-shadow: 0px 0px 20px lime;
-}
-
-.october p {
-    font-size: 1em;
-    font-family: "Bitter", serif;
-    background-color: rgba(82, 32, 9, 0.75);
-    text-align: left;
-    padding: 6px;
-    color: orange;
+ p {
+  font-size: 1em;
+  font-family: "Bitter", serif;
+  background-color: rgba(82, 32, 9, 0.75);
+  text-align: left;
+  padding: 6px;
+  color: orange;
 }
 
 .g {
-    font-family: "Bitter", serif;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 12px;
-    color: orange;
-    padding: 6px;
-    max-width: 750px;
-    width: 100%;
-    border: solid 3px orangered;
-    background-color: black;
-    font-size: 1em;
-
+  font-family: "Bitter", serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  color: orange;
+  padding: 6px;
+  max-width: 750px;
+  width: 100%;
+  border: solid 3px orangered;
+  background-color: black;
+  font-size: 1em;
 }
 
 label {
-    color: white;
-    font-family: "Bitter", serif;
+  color: white;
+  font-family: "Bitter", serif;
 }
 
 main {
-    background-color: darkolivegreen;
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-top: 2px;
-    padding-top: 20px;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 2px;
+  padding-top: 20px;
 }
 
-.sixteenth {
-    color: #ffa500;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    background-image: url(/images/rust-texture-2.png);
-    max-width: 960px;
-    opacity: 0.75;
-    z-index: -1;
-    overflow: auto;
-    padding-bottom: 24px;
+footer.container {
+  font-family: "Bitter", serif;
+  background-color: #311004;
+  color: orange;
+  text-align: left;
+  height: 60px;
+  width: auto;
+  margin: 0;
 }
 
-.sixteenth h2 {
-    text-shadow: 1px 2px black, 6px 4px 12px rgb(253, 73, 2);
-    text-align: center;
-    height: 50px;
-    color: orange;
-    font-size: 3.5em;
-    opacity: 1;
-}
+@media screen and (min-width: 1200px) {
+  body {
+    display: grid;
+    grid-template-columns: 180px auto;
+    grid-template-rows: min-content auto auto min-content;
+    grid-template-areas:
+      "navigation header"
+      "navigation main"
+      "navigation main"
+      "navigation footer";
+  }
 
-.sixteenth p {
-    font-size: 1.5em;
-    font-family: "Bitter", serif;
-    background-color: rgba(82, 32, 9, 0.75);
-    text-align: left;
-    margin: 0px auto;
-    color: orange;
-    line-height: 36px;
-    width: 90%;
-    border: dotted 6px orangered;
-    box-shadow: 0px 0px 16px lime;
-    overflow: auto;
-}
+  nav .container {
+    width: auto;
+  }
 
-.sixteenth img {
-    border-radius: 16%;
-    border: dashed 6px #b7410e;
-    margin-top: 16px;
-}
+  nav {
+    grid-area: navigation;
+  }
 
-.rustiphyde {
-    color: #ffa500;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    background-image: url(/images/rust-texture-2.png);
-    max-width: 960px;
-    opacity: 0.75;
-    z-index: -1;
-    overflow: auto;
-    padding-bottom: 24px;
-}
+  nav > ul {
+    flex-direction: column;
+  }
 
-.rustiphyde h2 {
-    text-shadow: 1px 2px black, 6px 4px 12px rgb(253, 73, 2);
-    text-align: center;
-    height: 50px;
-    color: orange;
-    font-size: 3.5em;
-    opacity: 1;
-}
+  header {
+    grid-area: header;
+  }
 
-.rustiphyde p {
-    font-size: 1.5em;
-    font-family: "Bitter", serif;
-    background-color: rgba(82, 32, 9, 0.75);
-    text-align: left;
-    margin: 0px auto;
-    color: orange;
-    line-height: 36px;
-    width: 90%;
-    border: dotted 6px orangered;
-    box-shadow: 0px 0px 16px lime;
-    overflow: auto;
-}
+  main {
+    grid-area: main;
+  }
 
-.rustiphyde iframe {
-    border: dashed 6px #b7410e;
-    margin: 0 auto;
-}
-
-footer {
-    font-family: "Bitter", serif;
-    background-color: #311004;
-    color: orange;
-    text-align: left;
-    height: 60px;
-    margin-top: 16px;
-    position: sticky;
-    bottom: 0;
+  footer {
+    grid-area: footer;
+  }
 }
