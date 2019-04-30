@@ -154,6 +154,7 @@ header {
 #contact {
   font-size: 1.5em;
   width:80vw;
+  grid-area: header;
 }
 
 main {
@@ -277,6 +278,10 @@ footer {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
 
     }
 
