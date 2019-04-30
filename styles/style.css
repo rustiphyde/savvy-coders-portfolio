@@ -17,24 +17,21 @@ input {
 
 .subornot input {
   background-color: #b7410e;
-  color: black;
+  color: #f4db9d;
   font-family: "Bitter", serif;
-}
-
-#messinq {
-  font-family: "Bitter", serif;
-  color: orange;
-  text-align: left;
-  margin: 0;
-  background-image: none;
-  border: none;
-  font-size: 1.5em;
 }
 
 .justif {
   display: flex;
-  justify-content: left;
   margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 6px;
+}
+
+#mess-inq {
+  background-color: #b7410e;
+  color: #f4db9d;
 }
 
 .fab {
@@ -51,6 +48,11 @@ nav {
   z-index: 1;
   width: auto;
 }
+
+form {
+  margin: 6px;
+  grid-area: main;
+  }
 
 form > div + div {
   margin-top: 16px;
@@ -149,13 +151,9 @@ header {
   width: 100vw;
 }
 
-#c {
-  text-shadow: 1px 2px orange, 6px 4px 4px black;
-  text-align: center;
-  color: #722104;
-  line-height: 40px;
-  font-size: 2.5em;
-  font-family: "Bitter", serif;
+#contact {
+  font-size: 1.5em;
+  width:80vw;
 }
 
 main {
@@ -201,7 +199,7 @@ img {
 }
 
 label {
-  color: white;
+  color: #f4db9d;
   font-family: "Bitter", serif;
 }
 

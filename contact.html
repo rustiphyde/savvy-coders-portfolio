@@ -13,7 +13,9 @@
     <title>Contact Form</title>
   </head>
   <body>
-    <h1 id="c">Contact Me</h1>
+    <header id="contact">
+    <h1>Contact Me</h1>
+    </header>
 
     <form action="https://formspree.io/rustiphyde@gmail.com" method="POST" >
 
@@ -36,7 +38,7 @@
       />
     </span>
 
-      <span><label for="fone">Your Phone</label>
+      <label for="fone">Your Phone</label>
         <input
         type="tel"
         name="userFone"
@@ -66,30 +68,31 @@
 
 
 <div class="justif">
-  <label id="messinq">What is this message about?</label>
+  <label id="mess-inq">What is this message about?</label>
 
-  <div><input
+
+  <input
     type="radio"
     name="subject"
     value="professional"
     checked />
     <label>I'd like to hire you!</label>
-  </div>
 
-  <div><input
+
+  <input
     type="radio"
     name="subject"
     value="personal" />
     <label>Personal message</label>
-  </div>
 
- <div> <input
+
+ <input
   type="radio"
   name="subject"
   value="other" />
     <label>Don't know/something else</label >
 </label>
-</div>
+
 </div>
 
 <div><input
@@ -117,13 +120,10 @@
   </select>
 </div>
 
-<div>      <label for="colpick">Just out of curiosity, what is your favorite color?</label>
-  <input type="color" name="colorPick" id="colpick">
-</div>
-
-
+<div>
       <label for="date">What date are you submitting this form?</label>
       <input type="date" name="todayIs" id="date">
+      </div>
     </form>
   </body>
 </html>
