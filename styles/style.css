@@ -13,6 +13,8 @@ input {
   background-color: #f4db9d;
   color: #b7410e;
   font-family: "Bitter", serif;
+  margin-right: 6px;
+  padding-right: 6px;
 }
 
 .subornot input {
@@ -25,13 +27,14 @@ input {
   display: flex;
   margin-top: 20px;
   flex-direction: row;
-  justify-content: space-around;
-  margin-right: 6px;
+  justify-content: space-between;
+  width:80vw;
 }
 
 #mess-inq {
   background-color: #b7410e;
   color: #f4db9d;
+  margin-right: 16px;
 }
 
 .fab {
@@ -54,13 +57,14 @@ nav {
   position: sticky;
   z-index: 1;
   width: auto;
+  border-bottom: solid 6px #b7410e;
 }
 
 form {
-  margin: 6px;
+  margin: 6px 0px 6px 6px;;
   grid-area: main;
   border: dotted 3px #b7410e;
-  padding: 6px;
+  padding: 6px 0px 6px 6px;
   }
 
 form > div + div {
@@ -156,7 +160,6 @@ header {
 
   font-size: 3em;
   font-family: "Bitter", serif;
-  width: 100vw;
 }
 
 #contact {
@@ -254,6 +257,8 @@ footer {
 }
 
 @media screen and (min-width: 960px) {
+
+
 
   .med-column {
     display: flex;
