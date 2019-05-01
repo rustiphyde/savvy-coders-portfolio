@@ -24,4 +24,4 @@
       //We capture what is RETURNED by checkName and overwrite 'name' with that value;
       name = checkName(name);
       // Use 'alert' to say hello to the user, using the name they passed in;
-      alert(`Hello, ${name}! Welcome to the Portfolio Page of Rusty Hoppins`);
+      document.querySelector("h1").textContent = `Hello, ${name}`;
