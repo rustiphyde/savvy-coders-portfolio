@@ -65,6 +65,7 @@ form {
   grid-area: main;
   border: dotted 3px #b7410e;
   padding: 6px 0px 6px 6px;
+  width: auto;
   }
 
 form > div + div {
