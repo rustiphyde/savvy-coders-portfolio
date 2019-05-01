@@ -175,33 +175,6 @@
       &copy; 2019 Rusty Hoppins
     </footer>
 
-    <script>
-      //create 'prompt' to ask for name;
-      //'name' is here as a GLOBAL VARIABLE that 'anyone' in the <script> can freely access and modify;
-      let name = prompt("Hello! What is your username?");
-      //this is a FUNCTION DECLARATION;
-      function checkName(userName) {
-        //Check if name is a blank string;
-        if (userName === "") {
-            //If the name is blank, ask again and be sure to capture/overwrite the value of userName;
-          userName = prompt(
-            "Are you there? What is your username?"
-          );
-
-          //RECURSION - fxn calls itself again;
-          userName = checkName(userName);
-
-        }
-
-        return userName;
-      }
-      //this is a FUNCTION EXPRESSION;
-      // let checkName = function() {};
-
-      //We capture what is RETURNED by checkName and overwrite 'name' with that value;
-      name = checkName(name);
-      // Use 'alert' to say hello to the user, using the name they passed in;
-      alert(`Hello, ${name} it's so great to meet you!`);
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
