@@ -5,8 +5,8 @@
       //this is a FUNCTION DECLARATION;
       function checkName(userName) {
         //Check if name is a blank string;
-        if (userName === "") {
-            //If the name is blank, ask again and be sure to capture/overwrite the value of userName;
+        if (!userName) {
+            //If the name is blank, ask again and be sure to capture/overwrite the value of userName...runs if checkName is false-y;
           userName = prompt(
             "Are you there? What is your name?"
           );
