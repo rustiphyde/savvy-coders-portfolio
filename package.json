@@ -4,6 +4,8 @@
   "description": "I want to welcome you to my portfolio.",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build index.html && cp _redirects ./dist/",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
