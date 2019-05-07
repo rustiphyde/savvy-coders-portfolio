@@ -3,11 +3,10 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
 
-const state = {
+const state = {};
 
-};
+state.title = 'Rusty Hoppins';
 
-state.title = 'Rusty's Portfolio;
 
 // Uses innerHTML property as a SETTER;
 
