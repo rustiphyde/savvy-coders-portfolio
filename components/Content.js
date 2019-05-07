@@ -1,4 +1,5 @@
-export default `<main class="container">
+export default function Content(){
+    return `<main class="container">
 <section>
   <h2>Welcome!</h2>
   <p>
@@ -100,3 +101,4 @@ export default `<main class="container">
   </section>
 </div>
 </main>`;
+}

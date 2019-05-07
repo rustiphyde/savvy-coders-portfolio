@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 // Uses innerHTML property as a SETTER;
 document.querySelector('#root').innerHTML = `
-${Navigation}
-${Header}
-${Content}
-${Footer}`;
+${Navigation()}
+${Header()}
+${Content()}
+${Footer()}`;

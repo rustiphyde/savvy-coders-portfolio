@@ -1,4 +1,5 @@
-export default `<footer class="container">
+export default function Footer(){
+    return `<footer class="container">
 <a href="https://www.deviantart.com/rustiphyde" target="_blank"
   ><i class="fab fa-deviantart"></i
 ></a>
@@ -20,3 +21,4 @@ export default `<footer class="container">
 <br /><br />
 &copy; 2019 Rusty Hoppins
 </footer>`;
+}
