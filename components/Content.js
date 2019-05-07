@@ -17,7 +17,7 @@ export default function Content(){
       src="https://avatars0.githubusercontent.com/u/30541772?s=460&v=4"
       alt="picture of Rusty Hoppins"
       width="200"
-    /><br /><br />That's one of the reasons I thin Web Development appeals to me
+    /><br /><br />That's one of the reasons I think Web Development appeals to me
     so much. I am absolutely thrilled by the idea that I can make a decent
     living off of creating things. The fact that it just happens to be so
     much fun for me is just another bonus. Some people look at complicated
