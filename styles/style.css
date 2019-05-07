@@ -185,6 +185,7 @@ main {
 img {
   float: left;
   margin: 16px;
+  border: dashed 3px #361002;
   }
 
  p {
@@ -271,7 +272,7 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-    body {
+    #root {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
