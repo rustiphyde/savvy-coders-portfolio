@@ -1,5 +1,4 @@
-export default function Content(){
-    return `<main class="container">
+export default Content() => `<main class="container">
 <section>
   <h2>Welcome!</h2>
   <p>
@@ -24,8 +23,8 @@ export default function Content(){
     code as a daunting task, I see it as new puzzling challenge, and I
     absolutely <strong>love</strong> puzzles.<br /><br />The minute I
     discovered coding it felt like the floodgates of creativity fell wide
-    open and I was immediately hooked in. Not once in the time I've spent
-    learning so far has it ever felt monotonous or tedious. Every time I
+    open and I was immediately hooked in.
+      Not once in the time I've spent learning so far has it ever felt monotonous or tedious. Every time I
     open my laptop the gears start turning in my creative mind, my pulse
     quickens and my hunger for learning increases.<br /><br />I honestly
     feel that I have found my calling in the world of Web Development and
@@ -101,4 +100,3 @@ export default function Content(){
   </section>
 </div>
 </main>`;
-}

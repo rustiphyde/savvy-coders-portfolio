@@ -1,5 +1,5 @@
-export default function Navigation(){
-    return `<nav class="container">
+export default Navigation () => `
+<nav class="container">
 <ul class="flex">
   <li>
     <a href="about.html" target="_blank"><i class="fas fa-eye"></i>About</a>
@@ -22,4 +22,4 @@ export default function Navigation(){
   </li>
 </ul>
 </nav>`;
-}
+
