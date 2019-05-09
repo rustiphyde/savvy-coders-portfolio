@@ -1,5 +1,5 @@
-export default Footer()
-`<footer class="container">
+export default () => `
+<footer class="container">
 <a href="https://www.deviantart.com/rustiphyde" target="_blank"
   ><i class="fab fa-deviantart"></i
 ></a>

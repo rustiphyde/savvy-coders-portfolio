@@ -1,4 +1,4 @@
-export default Content() => `<main class="container">
+export default () => `<main class="container">
 <section>
   <h2>Welcome!</h2>
   <p>

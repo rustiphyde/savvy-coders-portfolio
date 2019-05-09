@@ -1,8 +1,8 @@
-export default Navigation () => `
-<nav class="container">
+export default () =>
+    `<nav class="container">
 <ul class="flex">
   <li>
-    <a href="about.html" target="_blank"><i class="fas fa-eye"></i>About</a>
+    <a href="about.html"><i class="fas fa-eye"></i>About</a>
   </li>
   <li>
     <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
