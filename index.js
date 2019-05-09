@@ -6,17 +6,17 @@ import Footer from './components/Footer';
 console.log('hello');
 
 const states = {
-    "home": {
-        "title": 'Rusty Hoppins'
+    'home': {
+        'title': 'Rusty Hoppins'
     },
-    "contact": {
-        "title": 'Contact Form'
+    'contact': {
+        'title': 'Contact Form'
     },
-    "about": {
-        "title": 'About Me'
+    'about': {
+        'title': 'About Me'
     },
-    "blog": {
-        "title": 'My Blog'
+    'blog': {
+        'title': 'My Blog'
     }
 };
 
@@ -35,11 +35,11 @@ function render(state){
     `;
 }
 
-render(states.home);
+
 render(states.contact);
 render(states.about);
 render(states.blog);
-
+render(states.home);
 // querySelectorAll returns a NodeList which is an Array Like Object
 const links = document.querySelectorAll('nav a');
 
@@ -61,3 +61,4 @@ links.forEach((link) => {
         render(states[`${event.target.textContent.toLowerCase()}`]);
     });
 });
+X;
