@@ -1,17 +1,19 @@
-export default () =>
+function buildNavHTML(stateLinks){
+    let linksHTML = '';
+
+    stateLinks.forEach((link) => {
+        linksHTML += `<li><a href="">${link}</li>`;
+    });
+
+    return linksHTML;
+}
+
+export default (state) =>
     `<nav class="container">
 <ul class="flex">
-  <li>
-    <a href="about.html"><i class="fas fa-eye"></i>About</a>
-  </li>
-  <li>
-    <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
-  </li>
-  <li>
-    <a href="blog.html"><i class="fas fa-blog"></i>Blog</a>
-  </li>
+  ${buildNavHTML(state.links)}
   <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn"
+    <a href="" class="dropbtn"
       ><i class="fas fa-bars"></i>Portfolio</a
     >
     <div class="dropdown-content">
