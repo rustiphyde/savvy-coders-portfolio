@@ -3,20 +3,30 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
 
-console.log('hello');
+
+// home: {
+//     links: [{
+//         test: 'home',
+//         iconClas: 'home'
+//     }]
+// }
 
 const states = {
     'home': {
-        'title': 'Rusty Hoppins'
+        'title': 'Rusty Hoppins',
+        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
     },
     'contact': {
-        'title': 'Contact Form'
+        'title': 'Contact Form',
+        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
     },
     'about': {
-        'title': 'About Me'
+        'title': 'About Me',
+        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
     },
     'blog': {
-        'title': 'My Blog'
+        'title': 'My Blog',
+        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
     }
 };
 
@@ -55,10 +65,10 @@ const links = document.querySelectorAll('nav a');
 //     i++;
 // }
 
-links.forEach((link) => {
-    link.addEventListener('click', (event) => {
-        event.preventDefault();
-        render(states[`${event.target.textContent.toLowerCase()}`]);
-    });
-});
-X;
+// links.forEach((link) => {
+//     link.addEventListener('click', (event) => {
+//         event.preventDefault();
+//         render(states[`${event.target.textContent.toLowerCase()}`]);
+//     });
+// });
+// ;
