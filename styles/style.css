@@ -106,8 +106,7 @@ nav ul li a,
 .dropbtn {
   display: inline-block;
   color: #f4db9d;
-  text-align: center;
-  padding: 6px 6px;
+  padding: 6px 0px;
   text-decoration: none;
 }
 
@@ -131,7 +130,7 @@ nav ul li.dropdown {
 .dropdown-content a {
   color: #f4db9d;
   background-color: #b7410e;
-  padding: 6px 6px;
+  padding: 6px 0px;
   text-decoration: none;
   display: block;
   text-align: left;

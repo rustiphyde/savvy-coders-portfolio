@@ -11,26 +11,8 @@ import Footer from './components/Footer';
 //     }]
 // }
 
-const states = {
-    'home': {
-        'title': 'Rusty Hoppins',
-        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
-    },
-    'contact': {
-        'title': 'Contact Form',
-        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
-    },
-    'about': {
-        'title': 'About Me',
-        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
-    },
-    'blog': {
-        'title': 'My Blog',
-        'links': [ 'Home', 'About', 'Contact', 'Blog' ]
-    }
-};
-
 // Uses innerHTML property as a SETTER;
+import * as states from "./store";
 
 const root = document.querySelector('#root');
 // In each of these we are invoking our fxns and the return is our HTML
@@ -46,10 +28,10 @@ function render(state){
 }
 
 
-render(states.contact);
-render(states.about);
-render(states.blog);
-render(states.home);
+render(states.Contact);
+render(states.About);
+render(states.Blog);
+render(states.Home);
 // querySelectorAll returns a NodeList which is an Array Like Object
 const links = document.querySelectorAll('nav a');
 
@@ -65,10 +47,11 @@ const links = document.querySelectorAll('nav a');
 //     i++;
 // }
 
-// links.forEach((link) => {
-//     link.addEventListener('click', (event) => {
-//         event.preventDefault();
-//         render(states[`${event.target.textContent.toLowerCase()}`]);
-//     });
-// });
-// ;
+links.forEach((link) => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        console.log(event);
+        render(states[`${event.target.textContent}`]);
+    });
+});
+
