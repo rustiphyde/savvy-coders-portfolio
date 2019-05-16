@@ -1,4 +1,5 @@
-export default `
+export default function(){
+    return `
 <section>
   <h2>Welcome!</h2>
   <p>
@@ -99,3 +100,4 @@ export default `
     </p>
   </section>
 </div>`;
+}
