@@ -25,15 +25,7 @@ function render(state){
     ${Content(state)}
     ${Footer(state)}
     `;
-}
-
-
-render(states.Contact);
-render(states.About);
-render(states.Blog);
-render(states.Home);
-// querySelectorAll returns a NodeList which is an Array Like Object
-const links = document.querySelectorAll('nav a');
+    const links = document.querySelectorAll('nav a');
 
 // let i = 0;
 
@@ -54,4 +46,10 @@ links.forEach((link) => {
         render(states[`${event.target.textContent}`]);
     });
 });
+}
+
+
+render(states.Home);
+// querySelectorAll returns a NodeList which is an Array Like Object
+
 
