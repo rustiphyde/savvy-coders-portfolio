@@ -19,5 +19,6 @@ export default () => `
   ><i class="fab fa-github"></i
 ></a>
 <br /><br />
-&copy; 2019 Rusty Hoppins
+<strong>
+&copy; 2019 Rusty Hoppins</strong>
 </footer>`;

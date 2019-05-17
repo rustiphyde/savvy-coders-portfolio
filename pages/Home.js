@@ -100,4 +100,4 @@ export default function(){
     </p>
   </section>
 </div>`;
-}
+};

@@ -1,4 +1,6 @@
-export default `<form action="https://formspree.io/rustiphyde@gmail.com" method="POST" >
+export default function() {
+  return `
+  <form action="https://formspree.io/rustiphyde@gmail.com" method="POST" >
 
 <span>
 <label for="name">Your Name</label>
@@ -115,3 +117,4 @@ me to your newsletter!</label>
 <br>
 
 </form>`;
+};
