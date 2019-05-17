@@ -38,12 +38,13 @@ input {
 }
 
 .fab {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #f4db9d;
   text-align: center;
   margin: 9px;
   float: right;
   padding-bottom: 16px;
+  margin-bottom:10px;
 }
 .fas {
   font-size: 2em;
@@ -99,12 +100,14 @@ nav > ul {
 
 nav ul li {
   display: flex;
+  flex-direction: column;
   text-transform: uppercase;
 }
 
 nav ul li a,
 .dropbtn {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   color: #f4db9d;
   padding: 6px 0px;
   text-decoration: none;
@@ -116,7 +119,8 @@ nav ul li a:hover,
 }
 
 nav ul li.dropdown {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-content {
@@ -132,7 +136,8 @@ nav ul li.dropdown {
   background-color: #b7410e;
   padding: 6px 0px;
   text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: left;
 }
 
@@ -143,7 +148,8 @@ nav ul li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -158,7 +164,7 @@ header {
   color: #f4db9d;
   background-color: #b7410e;
 
-  font-size: 3em;
+  font-size: 2em;
   font-family: "Bitter", serif;
 }
 
@@ -211,6 +217,7 @@ h2 {
 
 footer {
   font-family: "Bitter", serif;
+  font-size: 1.5em;
   background-color :#b7410e;
   color: #f4db9d;
   text-align: left;
