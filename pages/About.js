@@ -1,4 +1,5 @@
-export default function() {`
+export default function() {
+  return `
 <p>
   <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic itaque id nulla maxime officia, cupiditate laudantium amet? Porro optio cumque sit ab, tempora commodi maxime rem consequuntur pariatur nulla facilis.</span>
   <span>Unde dolores quod, nemo eligendi maxime, blanditiis similique nam perferendis vero officiis non sed incidunt? Accusantium consequatur numquam a beatae nam architecto ratione porro consectetur. Ducimus aspernatur voluptatibus iste doloribus!</span>
