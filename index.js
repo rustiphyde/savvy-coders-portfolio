@@ -42,7 +42,6 @@ function render(state){
 links.forEach((link) => {
     link.addEventListener('click', (event) => {
         event.preventDefault();
-        console.log(event);
         render(states[`${event.target.textContent}`]);
     });
 });
