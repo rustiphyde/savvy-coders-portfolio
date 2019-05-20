@@ -1,7 +1,7 @@
+import links from './Links';
+
 export default {
-  'pageContent': 'About',
-  'title': 'About Me',
-  'links': {
-      'primary': [ 'Home', 'About', 'Contact', 'Blog' ], 'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ]
-  }
-}
+    'pageContent': 'About',
+    'title': 'About Me',
+    'links': links
+};
