@@ -1,5 +1,4 @@
-export default () => {
-  return `
+export default () => `
 <footer class="container">
 <a href="https://www.deviantart.com/rustiphyde" target="_blank" aria-label="Open deviant art profile for Rustiphyde in a new window"
   ><i aria-hidden="true" class="fab fa-deviantart"></i
@@ -22,4 +21,3 @@ export default () => {
 <br /><br />
 <strong>&copy; 2019 Rusty Hoppins</strong>
 </footer>`;
-};
