@@ -137,7 +137,6 @@ nav ul li.dropdown {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  text-align: left;
 }
 
 .dropdown-content a:hover {
