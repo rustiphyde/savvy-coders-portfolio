@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 // }
 
 // Uses innerHTML property as a SETTER;
-import * as states from "./store";
+import * as states from './store';
 
 const root = document.querySelector('#root');
 // In each of these we are invoking our fxns and the return is our HTML
@@ -27,24 +27,24 @@ function render(state){
     `;
     const links = document.querySelectorAll('nav a');
 
-// let i = 0;
+    // let i = 0;
 
-// while(i < links.length){
-//     console.log('this is in the while loop' , links[i]);
-//     links[i].addEventListener('click', (event) => {
-//         event.preventDefault();
-//         console.log('this is from the click handler', event.target.textContent);
-//     });
+    // while(i < links.length){
+    //     console.log('this is in the while loop' , links[i]);
+    //     links[i].addEventListener('click', (event) => {
+    //         event.preventDefault();
+    //         console.log('this is from the click handler', event.target.textContent);
+    //     });
 
-//     i++;
-// }
+    //     i++;
+    // }
 
-links.forEach((link) => {
-    link.addEventListener('click', (event) => {
-        event.preventDefault();
-        render(states[`${event.target.textContent}`]);
+    links.forEach((link) => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
+            render(states[`${event.target.closest('nav a').textContent}`]);
+        });
     });
-});
 }
 
 
