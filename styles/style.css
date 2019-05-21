@@ -106,7 +106,7 @@ nav ul li {
 nav ul li a,
 .dropbtn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: #f4db9d;
   padding: 6px 0px;
   text-decoration: none;
@@ -119,7 +119,7 @@ nav ul li a:hover,
 
 nav ul li.dropdown {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .dropdown-content {
@@ -136,7 +136,7 @@ nav ul li.dropdown {
   padding: 6px 0px;
   text-decoration: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: left;
 }
 
@@ -148,7 +148,7 @@ nav ul li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 body {
