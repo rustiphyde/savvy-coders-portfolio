@@ -16,6 +16,9 @@ import * as states from './store';
 
 import Navigo from 'navigo';
 
+// Object Destructuring uses braces to pull one thing from an object
+import { capitalize } from 'lodash';
+
 // window,location.origin provides the base location
 const router = new Navigo(window.location.origin);
 
@@ -54,8 +57,11 @@ function render(state){
 
 
 // querySelectorAll returns a NodeList which is an Array Like Object
+function handleRoutes(params){
+    render(states[capitalize(params.path)]);
+}
 
 router
-    .on(':path', (params) => console.log(params))
+    .on(':path', handleRoutes)
     .on('/', () => render(states.Home))
     .resolve();
