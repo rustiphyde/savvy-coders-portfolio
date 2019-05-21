@@ -7,8 +7,10 @@ textarea {
   background-color: #f4db9d;
   color: #b7410e;
   font-family: "Bitter", serif;
-  width: 80vw;
+  margin: 0 60px;
+  width: auto;
 }
+
 input {
   background-color: #f4db9d;
   color: #b7410e;
@@ -21,14 +23,6 @@ input {
   background-color: #b7410e;
   color: #f4db9d;
   font-family: "Bitter", serif;
-}
-
-.justif {
-  display: flex;
-  margin-top: 20px;
-  flex-direction: row;
-  justify-content: space-around;
-  width: auto;
 }
 
 #mess-inq {
@@ -98,9 +92,9 @@ nav > ul {
 }
 
 nav ul li {
-  display: flex;
-  flex-direction: row;
+
   text-transform: uppercase;
+  list-style: none;
 }
 
 nav ul li a,
@@ -118,8 +112,8 @@ nav ul li a:hover,
 }
 
 nav ul li.dropdown {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  list-style: none;
 }
 
 .dropdown-content {
@@ -144,8 +138,7 @@ nav ul li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 body {

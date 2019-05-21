@@ -1,5 +1,5 @@
-export default function() {
-  return `
+export default function(){
+    return `
   <form action="https://formspree.io/rustiphyde@gmail.com" method="POST" >
 
 <span>
@@ -56,7 +56,7 @@ value="Clear Form" />
 </div>
 
 
-<div class="justif">
+<div>
 <label id="mess-inq">What is this message about?</label>
 
 
@@ -117,4 +117,4 @@ me to your newsletter!</label>
 <br>
 
 </form>`;
-};
+}
