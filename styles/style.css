@@ -135,8 +135,6 @@ nav ul li.dropdown {
   background-color: #b7410e;
   padding: 6px 0px;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
 }
 
 .dropdown-content a:hover {
