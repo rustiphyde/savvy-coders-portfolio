@@ -21,14 +21,14 @@ export default (state) =>
       <ul class="flex">
         ${buildNavHTML(state.links.primary)}
     <li>
-    <ul class="dropdown">
+    <div class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">
-    <span class="fas fa-bars"></span>Portfolio</a>
+    Portfolio<span class="fas fa-bars"></span></a>
     <div class="dropdown-content">
     ${buildNavHTML(state.links.dropdown)}
     </div>
 
-  </ul>
+  </div>
   </li>
-</ul>
+</div>
 </nav>`;
