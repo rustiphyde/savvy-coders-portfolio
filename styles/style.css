@@ -49,6 +49,7 @@ input {
 .fas {
   font-size: 2em;
   color: #f4db9d;
+  margin-right: 6px;
 }
 
 nav {
@@ -98,14 +99,14 @@ nav > ul {
 
 nav ul li {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-transform: uppercase;
 }
 
 nav ul li a,
 .dropbtn {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #f4db9d;
   padding: 6px 0px;
   text-decoration: none;
@@ -118,7 +119,7 @@ nav ul li a:hover,
 
 nav ul li.dropdown {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .dropdown-content {
@@ -135,7 +136,7 @@ nav ul li.dropdown {
   padding: 6px 0px;
   text-decoration: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: left;
 }
 
@@ -147,7 +148,7 @@ nav ul li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 body {

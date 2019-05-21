@@ -14,6 +14,11 @@ import Footer from './components/Footer';
 // Uses innerHTML property as a SETTER;
 import * as states from './store';
 
+import Navigo from 'navigo';
+
+// window,location.origin provides the base location
+const router = new Navigo(window.location.origin);
+
 const root = document.querySelector('#root');
 // In each of these we are invoking our fxns and the return is our HTML
 
@@ -48,7 +53,9 @@ function render(state){
 }
 
 
-render(states.Home);
 // querySelectorAll returns a NodeList which is an Array Like Object
 
-
+router
+    .on(':path', (params) => console.log(params))
+    .on('/', () => render(states.Home))
+    .resolve();
