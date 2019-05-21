@@ -33,8 +33,9 @@ function render(state){
     ${Content(state)}
     ${Footer(state)}
     `;
-    const links = document.querySelectorAll('nav a');
+    // const links = document.querySelectorAll('nav a');
 
+    router.updatePageLinks();
     // let i = 0;
 
     // while(i < links.length){
@@ -47,12 +48,12 @@ function render(state){
     //     i++;
     // }
 
-    links.forEach((link) => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-            render(states[`${event.target.closest('nav a').textContent}`]);
-        });
-    });
+    // links.forEach((link) => {
+    //     link.addEventListener('click', (event) => {
+    //         event.preventDefault();
+    //         render(states[`${event.target.closest('nav a').textContent}`]);
+    //     });
+    // });
 }
 
 
