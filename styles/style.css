@@ -106,7 +106,7 @@ nav ul li {
 nav ul li a,
 .dropbtn {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #f4db9d;
   padding: 6px 0px;
   text-decoration: none;
