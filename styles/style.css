@@ -10,7 +10,6 @@ textarea {
   margin: 0 60px;
   width: auto;
 }
-
 input {
   background-color: #f4db9d;
   color: #b7410e;
@@ -23,6 +22,9 @@ input {
   background-color: #b7410e;
   color: #f4db9d;
   font-family: "Bitter", serif;
+}
+#justify {
+  justify-content: left;
 }
 
 #mess-inq {
@@ -114,6 +116,7 @@ nav ul li a:hover,
 nav ul li.dropdown {
   display: block;
   list-style: none;
+
 }
 
 .dropdown-content {
@@ -139,6 +142,9 @@ nav ul li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+ul {
+  padding-inline-start: 0;
 }
 
 body {

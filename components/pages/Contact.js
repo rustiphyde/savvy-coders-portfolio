@@ -59,7 +59,6 @@ value="Clear Form" />
 <div>
 <label id="mess-inq">What is this message about?</label>
 
-
 <input
 type="radio"
 name="subject"

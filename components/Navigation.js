@@ -22,7 +22,7 @@ export default (state) =>
         ${buildNavHTML(state.links.primary)}
 <li><ul class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">
-        Portfolio</a>
+        <span class="fas fa-bars"></span>Portfolio</a>
     <div class="dropdown-content">
     ${buildNavHTML(state.links.dropdown)}
     </div>
