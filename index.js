@@ -56,11 +56,11 @@ function render(state){
     //     });
     // });
 }
-axios
-    .get('https://jsonplaceholder.typicode.com/posts')
-    .then((response) => {
-        console.log(response.data)
-    });
+// axios
+//     .get('https://jsonplaceholder.typicode.com/posts')
+//     .then((response) => {
+//         console.log(response.data)
+//     });
 
 // querySelectorAll returns a NodeList which is an Array Like Object
 function handleRoutes(params){
