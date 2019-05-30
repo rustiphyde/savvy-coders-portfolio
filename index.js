@@ -15,6 +15,7 @@ import Footer from './components/Footer';
 import * as states from './store';
 
 import Navigo from 'navigo';
+import Axios from 'axios';
 
 // Object Destructuring uses braces to pull one thing from an object
 import { capitalize } from 'lodash';
@@ -55,7 +56,11 @@ function render(state){
     //     });
     // });
 }
-
+axios
+    .get('https://jsonplaceholder.typicode.com/posts')
+    .then((response) => {
+        console.log(response.data)
+    });
 
 // querySelectorAll returns a NodeList which is an Array Like Object
 function handleRoutes(params){
@@ -66,3 +71,5 @@ router
     .on(':path', handleRoutes)
     .on('/', () => render(states.Home))
     .resolve();
+
+
