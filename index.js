@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 import * as states from './store';
 
 import Navigo from 'navigo';
-import Axios from 'axios';
+// import Axios from 'axios';
 
 // Object Destructuring uses braces to pull one thing from an object
 import { capitalize } from 'lodash';
