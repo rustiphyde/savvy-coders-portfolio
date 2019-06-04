@@ -65,23 +65,22 @@ function handleRoutes(params){
     render(states[capitalize(params.path)]);
 }
 
-router
-    .on(':path', handleRoutes)
-    .on('/', () => render(states.Home))
-    .resolve();
-
 axios
     .get('https://jsonplaceholder.typicode.com/posts')
     // After CALL STACK is all empty, JS can execute the 'then' to 'unwrap' the Promise
     .then((response) => {
         // 'response.data' is an Array of 'Post' Object
         // We need to get this into states.Blog.posts
-        const params = router.lastRouteResolved().params;
 
-  response.data.forEach(post => state.Blog.posts.push(post));
-
-  if (params) {
-    // required for the home page
-    handleRoute(params);
-
+        response.data.forEach((post) => states.Blog.posts.push(post));
+        if(router.lastRouteResolved().params && router.lastRouteResolved().params.path === 'blog'){
+            render(states.Blog);
+        }
     });
+
+
+router
+    .on(':path', handleRoutes)
+    .on('/', () => render(states.Home))
+    .resolve();
+
