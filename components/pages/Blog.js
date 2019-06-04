@@ -6,7 +6,7 @@ function buildPostsHTML(posts){
 }
 
 export default function(state){
-    return `
+    return  `Hello there,
     ${buildPostsHTML(state.posts)}
     `;
 }
