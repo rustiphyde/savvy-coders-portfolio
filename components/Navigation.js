@@ -8,9 +8,9 @@ function buildIconHTML(link){
 
 function buildNavHTML(stateLinks){
     return stateLinks
-    .map(
-        (link) => `<li><a href="/${link.text.toLowerCase()}" data-navigo>${buildIconHTML(link)}  ${link.text}</a></li>`
-    ).join(' ');
+        .map(
+            (link) => `<li><a href="/${link.text.toLowerCase()}" data-navigo>${buildIconHTML(link)}  ${link.text}</a></li>`
+        ).join(' ');
 }
 
 export default (state) =>

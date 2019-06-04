@@ -14,8 +14,10 @@ import Footer from './components/Footer';
 // Uses innerHTML property as a SETTER;
 import * as states from './store';
 
+// capitalize 'Navigo' to make it clear that this is a CONSTRUCTOR Fxn
 import Navigo from 'navigo';
-// import Axios from 'axios';
+
+import axios from 'axios';
 
 // Object Destructuring uses braces to pull one thing from an object
 import { capitalize } from 'lodash';
@@ -56,11 +58,7 @@ function render(state){
     //     });
     // });
 }
-// axios
-//     .get('https://jsonplaceholder.typicode.com/posts')
-//     .then((response) => {
-//         console.log(response.data)
-//     });
+
 
 // querySelectorAll returns a NodeList which is an Array Like Object
 function handleRoutes(params){
@@ -72,4 +70,18 @@ router
     .on('/', () => render(states.Home))
     .resolve();
 
+axios
+    .get('https://jsonplaceholder.typicode.com/posts')
+    // After CALL STACK is all empty, JS can execute the 'then' to 'unwrap' the Promise
+    .then((response) => {
+        // 'response.data' is an Array of 'Post' Object
+        // We need to get this into states.Blog.posts
+        const params = router.lastRouteResolved().params;
 
+  response.data.forEach(post => state.Blog.posts.push(post));
+
+  if (params) {
+    // required for the home page
+    handleRoute(params);
+
+    });
