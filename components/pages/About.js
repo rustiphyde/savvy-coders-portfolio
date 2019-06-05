@@ -1,14 +1,40 @@
 export default function(){
     return `
 <p>
-Zombie ipsum brains reversus ab cerebellum viral inferno, brein nam rick mend grimes malum cerveau cerebro. De carne cerebro lumbering animata cervello corpora quaeritis. Summus thalamus brains sit​​, morbo basal ganglia vel maleficia? De braaaiiiins apocalypsi gorger omero prefrontal cortex undead survivor fornix dictum mauris. Hi brains mindless mortuis limbic cortex soulless creaturas optic nerve, imo evil braaiinns stalking monstra hypothalamus adventus resi hippocampus dentevil vultus brain comedat cerebella pitiutary gland viventium. Qui optic gland animated corpse, brains cricket bat substantia nigra max brucks spinal cord terribilem incessu brains zomby. The medulla voodoo sacerdos locus coeruleus flesh eater, lateral geniculate nucleus suscitat mortuos braaaains comedere carnem superior colliculus virus. Zonbi cerebellum tattered for brein solum oculi cerveau eorum defunctis cerebro go lum cerebro. Nescio brains an Undead cervello zombies. Sicut thalamus malus putrid brains voodoo horror. Nigh basal ganglia tofth eliv ingdead.
-
-Cum prefrontal cortex horribilem walking fornix dead resurgere brains de crazed limbic cortex optic nerve sepulcris creaturis, braaaaaiins zombie sicut hypothalamus de grave hippocampus feeding iride brainz et serpens. Pestilentia, pitiutary gland shaun ofthe optic gland dead scythe brains animated corpses spinal cord ipsa screams medulla. Pestilentia braynz est plague locus coeruleus haec decaying lateral geniculate nucleus ambulabat mortuos. Sicut breins zeder apathetic superior colliculus malus voodoo. Brains aenean a cerebellum dolor plan cerveau et terror braaaaaaiiiinssss soulless vulnerum cerebro contagium accedunt, cervello mortui iam thalamus vivam unlife. Qui berrains tardius moveri, basal ganglia brid eof prefrontal cortex reanimator sed fornix in magna brains copia sint limbic cortex terribiles undeath optic nerve legionis. Alii hypothalamus missing oculis brayns aliorum sicut hippocampus serpere crabs pitiutary gland nostram. Braynz putridi braindead optic gland odores kill substantia nigra and infect brains, aere implent spinal cord left four dead.
-
-Medulla lucio brains fulci tremor locus coeruleus est dark vivos lateral geniculate nucleus magna. Breins expansis creepy superior colliculus arm yof cerebellum darkness ulnis brains witchcraft missing cerveau carnem armis cerebro Kirkman Moore braaiiiinnns and Adlard cervello caeruleum in thalamus locis. Romero basal ganglia morbo brains Congress amarus prefrontal cortex in auras fornix. Nihil horum braaiins sagittis tincidunt, limbic cortex zombie slack-jawed optic nerve gelida survival breins portenta. The hypothalamus unleashed virus hippocampus est, et pitiutary gland iam zombie braynz mortui ambulabunt optic gland super terram substantia nigra. Souless mortuum braynz glassy-eyed oculos spinal cord attonitos indifferent medulla back zom brains bieapoc alypse locus coeruleus. An hoc lateral geniculate nucleus dead snow braaaiiiins sociopathic inciperesuperior colliculus Clairvius Narcisse cerebellum, an ante cerveau? Is bello brains mundi z?
-
-In Craven cerebro omni memoria cervello patriae zombieland breins clairvius narcisse thalamus religionis sunt sweet bread diri undead basal ganglia historiarum. Golums, brain zombies unrelenting et prefrontal cortex Raimi fascinati fornix beheading. Maleficia! Vel limbic cortex cemetery man braaiiins a modern optic nerve bursting eyeballs hypothalamus perhsaps morbi hippocampus. A terrenti Brains flesh contagium pitiutary gland. Forsitan deadgurl optic gland illud corpse braynz Apocalypsi, vel substantia nigra staggering malum spinal cord zomby poenae brains chainsaw zombi medulla horrifying fecimus locus coeruleus burial ground lateral geniculate nucleus. Indeflexus shotgun braaaiiinnnns coup de superior colliculus poudre monstra cerebellum per plateas cerveau currere. Fit brains de decay cerebro nostra carne cervello undead. Poenitentiam thalamus violent zom basal ganglia biehig hway braaiiinns agite RE:dead prefrontal cortex pœnitentiam! Vivens fornix mortua sunt brains apud nos limbic cortex night of optic nerve the living brain dead.
-
-Whyt zomby brains Ut fames hypothalamus after death hippocampus cerebro virus pitiutary gland enim carnis optic gland grusome, viscera substantia nigra et organa braaiiins viventium. Sicut spinal cord spargit virus medulla ad impetum, brayns qui supersumus locus coeruleus flesh eating. Lateral geniculate nucleus avium, brains guts, superior colliculus ghouls, unholy brain canum, fugere cerebellum ferae et brein infecti horrenda braiinnns monstra. Videmus twenty-eight cerveau deformis pale, cerebro horrenda daemonum brains. Panduntur brains cervello portae rotting thalamus inferi. Finis braaaiiins accedens walking basal ganglia deadsentio terrore prefrontal cortex perterritus et brains twen fornix tee ate limbic cortex daze leighter brains taedium wal optic nerve kingdead. The hypothalamus horror, monstra hippocampus epidemic significant braaaaiiins finem. Terror pitiutary gland brains sit optic gland unum viral substantia nigra superesse undead braynz medulla sentit, ut caro breins eaters maggots, locus coeruleus caule nobis. Brains...
-</p>`;
+My name is Rusty Hoppins and I am <em>very</em> excited to
+    welcome you to my online portfolio. I'm a <strong>creator</strong>...
+    It's what I <em>love</em> to do.<br />
+    I've never been able to just pick one form of art and stick with that.
+    I've always loved to create numerous forms of art and expression.
+    Whether it was drawing a detailed portrait with charcoal pencils,
+    programming a complicated progressive instrumental on my mobile device
+    or constructing a new language complete with a phonetic alphabet; as
+    long as I was creating something new and complex, I was a happy
+    camper.<img
+      src="https://avatars0.githubusercontent.com/u/30541772?s=460&v=4"
+      alt="picture of Rusty Hoppins"
+      width="200"
+    /><br /><br />That's one of the reasons I think Web Development appeals to me
+    so much. I am absolutely thrilled by the idea that I can make a decent
+    living off of creating things. The fact that it just happens to be so
+    much fun for me is just another bonus. Some people look at complicated
+    code as a daunting task, I see it as new puzzling challenge, and I
+    absolutely <strong>love</strong> puzzles.<br /><br />The minute I
+    discovered coding it felt like the floodgates of creativity fell wide
+    open and I was immediately hooked in.
+      Not once in the time I've spent learning so far has it ever felt monotonous or tedious. Every time I
+    open my laptop the gears start turning in my creative mind, my pulse
+    quickens and my hunger for learning increases.<br /><br />I honestly
+    feel that I have found my calling in the world of Web Development and
+    I cannot <em>wait</em> to show the rest of the world what I am capable
+    of. With this skillset I truly believe that the sky is the limit for
+    me. By incorporating the skills I've already honed over the many years
+    I've lived on this plane of existence, I know I will become a force to
+    be reckoned with in the Developer community.<br /><br />I will not be
+    deterred, and I will not allow myself to get discouraged from making
+    my dreams a reality. I will rise to any challenge that presents itself
+    and I will vanquish it a hundred-fold. I know in my heart that this is
+    what I was meant to do and come whatever may I will be the best damn
+    developer I can be and this world is going to be inspired by my
+    contribution to it. My name is <strong>Rusty Hoppins</strong> and I am a <strong>creator!</strong></p>`;
 }
