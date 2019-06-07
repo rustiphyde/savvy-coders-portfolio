@@ -1,7 +1,8 @@
 function buildIconHTML(link){
     if(link.icon){
-        return `<span class="${link.icon}"}></span>`;
+        return `<span class="${link.icon}"></span>`;
     }
+
 
     return '';
 }

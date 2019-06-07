@@ -2,16 +2,14 @@ export default function(){
     return `
 <section>
   <h2>Welcome!</h2>
-  <p>
-    This is a filler paragraph but I felt like writing something for it
-    so... So get ready, Universe, because
-    <strong>I am the future of Web Development.</strong> My name is Rusty
+  <p>Welcome to my online portfolio. My name is Rusty
     Hoppins and I am a <strong>creator.</strong>
   </p>
 </section>
 <div class="med-column">
   <section>
-    <h2>Lorem Ipsum</h2>
+    <h2>This is just some Lorem Ipsum</h2>
+    <h3>Just to add some structure to the page</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
       dignissimos aliquam in vero repellendus consequatur deleniti fuga
@@ -65,4 +63,4 @@ export default function(){
     </p>
   </section>
 </div>`;
-};
+}
